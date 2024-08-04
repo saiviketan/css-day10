@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  .child1{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    background-color: white;
+    font-size: 25px;
+   
+  }
+  .proj{
+    position: absolute;
+    left: 900px;
+  }
+  .ab{
+    position: absolute;
+    left: 1050px;
+  }
+  .child2{
+    position: relative;
+  }
+  .br{
+    position: absolute;
+    left: 500px;
+    top: 500px;
+    font-size: 25px;
+    font-weight: bolder;
+    background-color: black;
+    color: white;
+    padding: 10px;
+  }
+  .arch{
+    position: absolute;
+    left: 560px;
+    top: 500px;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 10px;
+    color: white;
+    letter-spacing: 3px;
+  }
+  .child3{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+  }
+  .parent{
+    position: relative;
+  }
+  .a{
+    position: absolute;
+    background-color: black;
+    color: white;
+    margin-top: 0px;
+    padding: 10px;
+  }
+  .b{
+    position: absolute;
+    background-color: black;
+    color: white;
+    margin-top: 0px;
+    margin-left: 315px;
+    padding: 10px;
+  }
+  .c{
+    position: absolute;
+    background-color: black;
+    color: white;
+    margin-top: 0px;
+    margin-left: 630px;
+    padding: 10px;
+  }
+  .d{
+    position: absolute;
+    background-color: black;
+    color: white;
+    margin-top: 0px;
+    margin-left: 945px;
+    padding: 10px;
+  }
+  .e{
+    position: absolute;
+    background-color: black;
+    color: white;
+    margin-top: 210px;
+    margin-left: 0px;
+    padding: 10px;
+  }
+  .f{
+    position: absolute;
+    background-color: black;
+    color: white;
+    margin-top: 210px;
+    margin-left: 315px;
+    padding: 10px;
+  }
+  
+  .g{
+    position: absolute;
+    background-color: black;
+    color: white;
+    margin-top: 210px;
+    margin-left:630px;
+    padding: 10px;
+  }
+  .h{
+    position: absolute;
+    background-color: black;
+    color: white;
+    margin-top: 210px;
+    margin-left: 945px;
+    padding: 10px;
+  }
+  p{
+    text-transform: capitalize;
+    word-spacing: 5px;
+    text-align: justify;
+  }
+  .child4{
+    display: flex;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5px;
+  }
+  .p{
+    text-transform: none;
+    text-align: start;
+  }
+  .contact{
+    width: 280px;
+    text-align: center;
+    background-color:grey;
+    border: 1px solid;
+    padding: 10px;
+  }
+</style>
+<body>
+  <div>
+    <div class="child1">
+      <nav><b>BR</b>Architects</nav>
+      <nav class="proj">Projects</nav>
+      <nav class="ab">About</nav>
+      <nav>Contacts</nav>
+    </div>
+    <div class="child2">
+      <img src="https://www.w3schools.com/w3images/architect.jpg" alt="" >
+      <span><P class="br">BR</P><p class="arch">Architects</p></span>
+    </div>
+    <h2>Projects</h2>
+    <hr>
+    <div class="child3">
+      <img src="https://www.w3schools.com/w3images/house5.jpg" alt="" width="300px" class="parent">
+      <p class="a">SUMMER HOUSE</p>
+      <img src="https://www.w3schools.com/w3images/house2.jpg" alt="" width="300px" class="parent">
+      <p class="b">BRICK HOUSE</p>
+      <img src="https://www.w3schools.com/w3images/house3.jpg" alt=""  width="300px" class="parent" >
+      <p class="c">RENOVATED</p>
+      <img src="https://www.w3schools.com/w3images/house4.jpg" alt=""  width="300px" class="parent">
+      <p class="d">BARN HOUSE</p>
+      <img src="https://www.w3schools.com/w3images/house5.jpg" alt="" width="300px" class="parent">
+      <p class="e">SUMMER HOUSE</p>
+      <img src="https://www.w3schools.com/w3images/house2.jpg" alt=""  width="300px"class="parent">
+      <p class="f">BRICK HOUSE</p>
+      <img src="https://www.w3schools.com/w3images/house3.jpg" alt=""  width="300px"class="parent">
+      <p class="g">RENOVATED</p>
+      <img src="https://www.w3schools.com/w3images/house4.jpg" alt=""  width="300px"class="parent">
+      <p class="h">BARN HOUSE</p>
+    </div>
+    <br>
+    <h2>About</h2>
+    <hr>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <div class="child4">
+      <div class="profile1">
+        <img src="https://www.w3schools.com/w3images/team2.jpg" alt="" width="310px">
+        <h2>John Doe</h2>
+        <h3>CEO & Founder</h3>
+        <p class="p">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        <p class="contact">contact</p>
+      </div>
+      <div class="profile2">
+        <img src="https://www.w3schools.com/w3images/team1.jpg" alt="" width="310px">
+        <h2>John Doe</h2>
+        <h3>Architect</h3>
+        <p class="p">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        <p class="contact">contact</p>
+      </div>
+      <div class="profile3">
+        <img src="https://www.w3schools.com/w3images/team3.jpg" alt="" width="310px">
+        <h2>John Doe</h2>
+        <h3>Architect</h3>
+        <p class="p">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        <p class="contact">contact</p>
+      </div>
+      <div class="profile4">
+        <img src="https://www.w3schools.com/w3images/team4.jpg" alt="" width="310px">
+        <h2>John Doe</h2>
+        <h3>Architect</h3>
+        <p class="p">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        <p class="contact">contact</p>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
